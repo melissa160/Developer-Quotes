@@ -5,12 +5,9 @@ $('.button').on('click', function() {
     var author = "";
     randomQuote = Math.floor(Math.random()*(45-1)+1);
     json = json.filter(function(val) {
-      console.log(val.id);
-      console.log("ram" + randomQuote);
       return (val.id === randomQuote);
     });
 
-    console.log(json);
     html += "<p>"+ json[0].quote
     html += "</p>"
 
