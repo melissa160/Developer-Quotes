@@ -1,5 +1,5 @@
 $('.btn').on('click', function() {
-	$.getJSON("http://quotes.stormconsultancy.co.uk/quotes.json",function(json) {
+	$.getJSON("https://jsonp.afeld.me/?url=http://quotes.stormconsultancy.co.uk/quotes.json",function(json) {
     //$(".quote").html(JSON.stringify(json));
     var html = "";  
     var author = "";
