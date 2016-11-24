@@ -48,17 +48,16 @@ img {
 
 .button {
 	background-color: black;
+	border:none;
+	padding: 5px 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
 	color: white;
-}
-
-.button:active{
-	background-color: black;
-	color: white;
+	border-radius: 5px;
 }
 
 .button:hover{
-	background-color: black;
-	color: white;
+	color: #379295;
 }
 
 .quote{

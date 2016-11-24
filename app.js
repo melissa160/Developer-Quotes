@@ -1,4 +1,4 @@
-$('.btn').on('click', function() {
+$('.button').on('click', function() {
 	$.getJSON("https://jsonp.afeld.me/?url=http://quotes.stormconsultancy.co.uk/quotes.json",function(json) {
     //$(".quote").html(JSON.stringify(json));
     var html = "";  
